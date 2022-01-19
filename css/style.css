@@ -15,8 +15,9 @@ html{
     clear: both;
 }
 
+
 .container {
-    max-width: 1400px;
+    width: 1200px;
     margin: 2rem auto;
 }
 
@@ -53,8 +54,6 @@ html{
 }
 
 
-/* MAIN CSS */
-
 .logo{
     width: 196px;
     height: 83px;
@@ -76,6 +75,7 @@ li {
     background-color: white;
 }
 
+
 a {
     font-size: 1.2rem;
     color: lightgray;
@@ -94,46 +94,46 @@ a:hover {
 }
 
 .banner { 
-    width: 1400px;
+    width: 1200px;
     border-radius: 1rem;
-     margin: 2rem 0;
-     overflow: hidden;
-    height: 600px;
+    margin: 2rem auto;
+    overflow: hidden;
+    height: 500px;
     position: relative;
 }
 
 .img_banner{
     border-radius: 1rem;
     width: 100%;
-    margin-top: -10rem;
+    margin-top: -9rem;
     filter: brightness(70%);
 }
 
 .text_img {
-    position: absolute;
     width: 700px;
-    height: 200px;
-    top: 620px;
-    left: 50px;
+    height: 100px;
+    top: 35rem;
+    left: 22rem;
+    position: absolute;
 }
 
 .title_img,
 .subtitle_img {
     color: white;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .title_img{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .subtitle_img{
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .section-main {
-    width: 100%;
-    height: 300px;
+    /* width: 1400px; */
+    /* height: 300px; */
     padding-bottom: 1rem;
     margin-bottom: .5rem;
 
@@ -143,9 +143,62 @@ a:hover {
     margin-bottom: 1rem;
 }
 
+.section-header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.section-header h2 {
+    font-size: 1rem;
+    color: lightgray;
+    font-weight: 300;
+}
+
 .col {
     width: 20%;
     float: left;
+}
+
+.img_container {
+    height: 250px;
+    overflow: hidden;
+    border-radius: 1rem;
+    width: 100%;
+
+}
+
+.col img {
+    filter: brightness(70%);
+    /* width: 100%; */
+    /* height: 250px; */
+}
+
+.img_1 {
+    margin-top: -1.5rem;
+    margin-left: -2rem;
+}
+
+.img_2 {
+    width: 120%;
+    margin-top: -4rem;
+    margin-left: -3rem;
+}
+
+.img_3 {
+    width: 334px;
+    height: 250px;
+    margin-left: -1rem;
+}
+
+.col h1 {
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+.col p {
+    font-size: 1rem;
+    color: grey;
 }
 
 .col-center {
@@ -157,4 +210,17 @@ a:hover {
 .col-left,
 .col-right {
     width: calc((100% - 50% - 2rem) / 2);
+}
+
+footer {
+    display: flex;
+}
+
+footer p {
+    display: inline;
+    margin: 0 auto;
+}
+
+footer span {
+    color: red;
 }
