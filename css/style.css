@@ -17,7 +17,7 @@ html{
 
 .container {
     max-width: 1400px;
-    margin: 1.5rem auto;
+    margin: 2rem auto;
 }
 
 
@@ -63,7 +63,7 @@ html{
 ul {
     list-style: none;
     margin-left: -1rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 nav {
@@ -72,7 +72,7 @@ nav {
 
 li {
     display: inline-block;
-    line-height: 3em;
+    line-height: 3rem;
     background-color: white;
 }
 
@@ -93,12 +93,42 @@ a:hover {
     border-radius: .5rem;
 }
 
-/* a:visited {
-    color: black;
-}
- */
 .banner { 
-    margin: 1rem 0;
+    width: 1400px;
+    border-radius: 1rem;
+     margin: 2rem 0;
+     overflow: hidden;
+    height: 600px;
+    position: relative;
+}
+
+.img_banner{
+    border-radius: 1rem;
+    width: 100%;
+    margin-top: -10rem;
+    filter: brightness(70%);
+}
+
+.text_img {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 620px;
+    left: 50px;
+}
+
+.title_img,
+.subtitle_img {
+    color: white;
+    font-weight: 300;
+}
+
+.title_img{
+    font-size: 2rem;
+}
+
+.subtitle_img{
+    font-size: 1rem;
 }
 
 .section-main {
