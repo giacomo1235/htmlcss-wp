@@ -203,7 +203,8 @@ a:hover {
 }
 
 footer{
-    padding: 0 500px;
+    padding: 20px 500px;
+    letter-spacing: 1px;
 }
 
 footer span {
